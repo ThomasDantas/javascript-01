@@ -4,6 +4,6 @@
         1997 - netscape queria padronizar a linguagem, porque a microsoft havia criado o JScript, entao a empresa ECMA, padroniza e passa a se chamar ECMAScript.
         2010 - NodeJs, ferramenta que utiliza javascript e trabalha no lado do servidor.
 
-    ## Variaveis
-       - Podem comecar com letra, $ ou _
-       - Possivel acentuar palavras
+   ## Variaveis
+      - Podem comecar com letra, $ ou _
+      - Possivel acentuar palavras
