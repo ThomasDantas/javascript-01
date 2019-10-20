@@ -7,3 +7,6 @@
    ## Variaveis
       - Podem comecar com letra, $ ou _
       - Possivel acentuar palavras
+
+
+[Curso em Video](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
