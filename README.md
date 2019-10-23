@@ -20,6 +20,9 @@
    ## Operadores
    + % resto da divisão inteira. EX: 5/2 = 1
    + ** potencia. EX: 5 ** 2 = 5x5 = 25
+   + nessa conta é primeiro feito a divisão: 5 + 3 / 2 = 6.5
+   + ele dá prioridade para o que esta dentro dos (): (5 + 3) / 2 = 4
+   + **Precendencia:** () -> ** -> *, /, % -> +, -
    
    
   ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
