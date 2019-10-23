@@ -16,3 +16,10 @@
    + **var** - Declara uma variável, opcionalmente, inicializando-a com um valor.
    + **let** - Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.
    + **const** - Declara uma constante de escopo de bloco, apenas de leitura. 
+
+   ## Operadores
+   + % resto da divisão inteira. EX: 5/2 = 1
+   + ** potencia. EX: 5 ** 2 = 5x5 = 25
+   
+   
+  ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
