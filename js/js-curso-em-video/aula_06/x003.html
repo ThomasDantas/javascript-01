@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiro Projeto</title>
+    <style></style>
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    <p>Paragrafo</p>
+
+    <script>
+        // passar para String(n) ou n.toString()
+
+        var n1 = Number.parseFloat(window.prompt('primeiro numero')) // string
+        var n2 = window.prompt('segundo numero') // string
+
+        var soma = n1 + parseFloat(n2) // ou apenas Number(n) - float e int
+        window.alert('resultado das somas: ' + soma)
+
+        // + para adicao number + number
+        // + concatencao string + string
+
+        /*
+            template string ecs6
+
+            var s = 'javascript'
+            `estou aprendendo ${s}` (dentro de crase)
+
+            s.length
+            s.toUpperCase()
+            s.toLowerCase()
+        */
+        window.alert(`resultado das somas2: ${soma}`)
+    </script>
+</body>
+
+</html>
