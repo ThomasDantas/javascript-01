@@ -44,5 +44,8 @@
     EX: teste ? true : false
    + **Precendencia de operadores:** (); **; *; /; %; -> >; <;>=; -> !; -> && -> || -> +, -
    
+   ## DOM - Document Object Model
+   + 
+   
    
   ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
