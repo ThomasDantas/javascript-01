@@ -1,6 +1,6 @@
 # Web_Moderno
    
-   Serie de videos para estudo ->  [Curso em Video](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+   Todo conteudo foi retirado do ->  [Curso em Video](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
    
    ## Anotacoes:
    
@@ -45,7 +45,7 @@
    + **Precendencia de operadores:** (); **; *; /; %; -> >; <;>=; -> !; -> && -> || -> +, -
    
    ## DOM - Document Object Model
-   + 
+   ![DOM](https://github.com/ThomasDantas/Web_Moderno/blob/master/js/js-curso-em-video/aula_09/dom.png)
    
    
   ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
