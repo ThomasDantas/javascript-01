@@ -24,7 +24,9 @@
    + ele dá prioridade para o que esta dentro dos (): (5 + 3) / 2 = 4
    + **Auto-atribuicoes:**  
    var n = 3;
+
    n = n + 4 (pode usar todos os operadores)
+   
    n = 7 (n passa a valer 7)
    **Simplificando:**
    n+=4
@@ -46,6 +48,3 @@
    
    ## DOM - Document Object Model
    ![DOM](https://github.com/ThomasDantas/Web_Moderno/blob/master/js/js-curso-em-video/aula_09/dom.png)
-   
-   
-  ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
