@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" name="" id="nome" />
+    </div>
+
+    <script>
+      var linkElement = document.createElement("a");
+      linkElement.setAttribute("href", "http://google.com");
+
+      var textElement = document.createTextNode("acessar google");
+      linkElement.appendChild(textElement);
+
+      var containerElement = document.querySelector("div#app");
+      containerElement.appendChild(linkElement);
+
+      var inputElement = document.querySelector("input#nome");
+      containerElement.removeChild(inputElement);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" name="nome" id="txt" />
+      <button class="botao">Adicionar</button>
+    </div>
+
+    <script>
+      var inputElement = window.document.getElementById("txt");
+      console.log(inputElement);
+
+      var inputElement1 = document.querySelector("input#txt");
+      // # serve para acessar um id, se for uma propriedade, seria input[name=nome]
+      console.log(inputElement1);
+
+      var btnElement = document.querySelector("button.botao");
+      btnElement.onclick = function() {
+        alert("clicado " + inputElement.value);
+      };
+    </script>
+  </body>
+</html>
