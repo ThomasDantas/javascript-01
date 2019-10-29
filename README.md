@@ -23,18 +23,17 @@
    + nessa conta é primeiro feito a divisão: 5 + 3 / 2 = 6.5
    + ele dá prioridade para o que esta dentro dos (): (5 + 3) / 2 = 4
    + **Auto-atribuicoes:**  
-   var n = 3;
-
-   n = n + 4 (pode usar todos os operadores)
-   
-   n = 7 (n passa a valer 7)
+      var n = 3;
+      n = n + 4 (pode usar todos os operadores)
+      n = 7 (n passa a valer 7)
+      
    **Simplificando:**
-   n+=4
-   n-=4 
-   n*=4 
-   n/=4 
-   n**=4
-   n%=4
+      n+=4
+      n-=4 
+      n*=4 
+      n/=4 
+      n**=4
+      n%=4
    + **Incremento:** EX: x++; x--
    var n = 10; x++
    n = 11
