@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>exec04</title>
+  </head>
+  <body>
+    <h2>
+      Escreva uma função que dado um total de anos de estudo retorna o quão
+      experiente o usuário é:
+    </h2>
+    <script>
+      function experiencia(anos) {
+        switch (true) {
+          case anos <= 1:
+            return "Iniciante";
+          case anos >= 1 && anos <= 3:
+            return "Intermediario";
+          case anos >= 3 && anos <= 6:
+            return "Avançado";
+          default:
+            return "Jedi Master";
+        }
+      }
+      var anosEstudo = 10;
+      var resultado = experiencia(anosEstudo);
+      console.log(resultado);
+    </script>
+  </body>
+</html>
