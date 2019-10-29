@@ -4,24 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Exerc02</title>
+    <title>exerc01</title>
   </head>
   <body>
-    <h1>
-      Crie uma função que dado um intervalo (entre x e y) exiba todos número
-      pares:
-    </h1>
+    <input type="button" value="Botao" onclick="clicado()" />
 
+    <div id="app"></div>
     <script>
-      function pares(x, y) {
-        for (var i = x; i <= y; i++) {
-          var total = i % 2;
-          if (i % 2 == 0) {
-            console.log("pares " + i);
-          }
-        }
+      var novoQuadrado;
+      function clicado() {
+        novoQuadrado = document.createElement("div");
+        document.body.appendChild(novoQuadrado);
+
+        novoQuadrado.style.height = "100px";
+        novoQuadrado.style.width = "100px";
+        novoQuadrado.style.backgroundColor = "blue";
+        novoQuadrado.style.marginTop = "20px";
+
+        novoQuadrado.setAttribute(
+          "onmouseover",
+          "style.background = getRandomColor()"
+        );
       }
-      pares(20, 120);
+
+      function getRandomColor() {
+        var letters = "0123456789ABCDEF";
+        var color = "#";
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+      var newColor = getRandomColor();
     </script>
   </body>
 </html>

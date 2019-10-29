@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>exerc03</title>
+    <title>exerc3</title>
   </head>
   <body>
-    <h2>
-      Escreva uma função que verifique se o vetor de habilidades passado possui
-      a habilidade "Javascript" e retorna um booleano true/false caso exista ou
-      não.
-    </h2>
-    <script>
-      var skills = ["javascript", "reactjs", "react native"];
-      var res;
-      console.log(skills[0]);
+    <h2>Lista de Nomes</h2>
+    <ul id="app"></ul>
 
-      function hab(skills, ver) {
-        if (skills.indexOf(ver) > -1) {
-          // indexOf compara o elemento de pesquisa com os do array
-          return (res = true);
-        } else {
-          return (res = false);
-        }
-      }
-      console.log(hab(skills, "javascript"));
+    <script>
+      var nomes = ["Diego", "Gabriel", "Lucas"];
+
+      nomes.forEach(elemento => {
+        console.log(elemento);
+        var lista = document.createElement("li");
+        var nomesLista = document.createTextNode(elemento);
+        lista.appendChild(nomesLista);
+        document.getElementById("app").appendChild(lista);
+      });
     </script>
   </body>
 </html>
