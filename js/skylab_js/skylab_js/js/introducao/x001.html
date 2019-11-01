@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Introducao</title>
+  </head>
+  <h1>Crie uma função que dado o objeto a seguir:</h1>
+  <div id="res"></div>
+  <body>
+    <script>
+      var res = window.document.querySelector("div#res");
+
+      var pessoa = {
+        nome: "thomas",
+        idade: 20,
+        local: "Sapiranga"
+      };
+
+      res.innerHTML = `O ${pessoa.nome} tem ${pessoa.idade} anos e mora em ${pessoa.local}`;
+    </script>
+  </body>
+</html>

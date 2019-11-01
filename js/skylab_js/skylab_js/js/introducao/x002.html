@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exerc02</title>
+  </head>
+  <body>
+    <h1>
+      Crie uma função que dado um intervalo (entre x e y) exiba todos número
+      pares:
+    </h1>
+
+    <script>
+      function pares(x, y) {
+        for (var i = x; i <= y; i++) {
+          var total = i % 2;
+          if (i % 2 == 0) {
+            console.log("pares " + i);
+          }
+        }
+      }
+      pares(20, 120);
+    </script>
+  </body>
+</html>
